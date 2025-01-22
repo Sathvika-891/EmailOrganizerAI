@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "emailorganizerai"
+version = "0.1.0"
+description = "Gmail-EmailCategorizer is a chatbot that uses AI to automatically categorize Gmail emails based on content. It sorts emails into categories like Work, Personal, Newsletters, and more, helping users organize their inboxes efficiently."
+authors = ["Sathvika-Kopalli"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+google-api-python-client = "^2.157.0"
+google-auth-oauthlib = "^1.2.1"
+litellm = "^1.59.3"
+pandas = "^2.2.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
