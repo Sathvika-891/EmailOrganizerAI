@@ -10,7 +10,7 @@ from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 from litellm import completion
 from tqdm import tqdm
-os.environ["GROQ_API_KEY"]=""
+os.environ["GROQ_API_KEY"]=os.environ.get("GROQ_API_KEY")
 
 SCOPES = ["https://www.googleapis.com/auth/gmail.readonly"]
 
