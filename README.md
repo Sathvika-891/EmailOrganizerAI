@@ -1,4 +1,4 @@
-# Gmail Email Classifier
+# Email Classifier
 
 A Python script that automatically classifies Gmail emails into categories like Work, Personal, Finance, Shopping, Social, and Newsletters using the Groq LLM API.
 
