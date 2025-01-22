@@ -75,8 +75,8 @@ CSV with these columns:
 
 ## Limitations
 
-- Processes the latest 10 emails
-- Email body is limited to 1000 characters
+- Processes the latest 10 emails due to rate limit of API keys
+- Email body is limited to 1000 characters to handle the context length of llms
 
 ## Security
 
